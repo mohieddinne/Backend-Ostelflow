@@ -1,0 +1,50 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+*.log
+*.gz
+build
+
+# SSL
+server.cert
+server.key
+
+# Plateform
+public/uploads/images/users/*.*
+!public/uploads/images/users/index.html
+public/uploads/images/menu-categories/*.*
+!public/uploads/images/menu-categories/index.html
+public/uploads/images/misc/*.*
+!public/uploads/images/misc/index.html
+public/uploads/images/content/*.*
+!public/uploads/images/content/index.html
+public/uploads/misc/*.*
+!public/uploads/misc/index.html
+public/frontend/*
+files/*/*
+!files/*/index.html
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# Technologies
+helps.txt
+.vscode
+logs
+package-lock.json

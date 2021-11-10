@@ -1,0 +1,66 @@
+body {
+  position: relative;
+  margin: auto;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+body table {
+  width: 100% !important;
+  position: relative !important;
+  font-family: Arial;
+  border: none;
+  font-size: 12px;
+}
+
+body table th,
+body table td {
+  vertical-align: middle;
+}
+
+body td {
+  border: none;
+}
+
+body td.Label {
+  font-weight: bold;
+}
+
+body table.Entet {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+body table.Entet {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+body .titreDocmnImprs {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.EntetTabl {
+  border: none;
+  background: #e6e6e6;
+  padding: 0.5rem 0.3rem;
+}
+
+body table .acteJuridiq {
+  padding: 0.2rem 0.3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+body a {
+  color: rgb(47, 101, 218);
+  text-decoration: none;
+}
+
+body table .acteJuridiq table .acteJuridiq {
+  border-bottom: none;
+}
+
+#divTitre {
+  position: relative !important;
+}
